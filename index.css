@@ -9,15 +9,51 @@ body {
 }
 
 rect {
-  fill: #001f3f;
+  fill: #173F5F;
 }
 
 
-/*Item Colors*/
+/* OBJECT STYLES */
 
 .navbar {
-  background-color: #bf8b07;
+  
 }
+
+#hero {
+  
+  padding: 10% 5% 8% 5%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("img/flight_image.png");
+  text-align: center;
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;  
+  background-attachment: fixed;
+}
+
+#hero_text {
+  color: #fff;
+}
+
+.mission {
+  padding: 5% 5%;  
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* CUSTOMIZE THE CAROUSEL
