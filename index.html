@@ -35,7 +35,7 @@
   </head>
   <body>
     <header>
-  <nav class="navbar navbar-expand-md fixed-top navbar-light">
+  <nav class="navbar navbar-expand-md static-top navbar-light">
     <a class="navbar-brand" href="#">FLiTE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -47,9 +47,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Get Involved</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Resources</a>
@@ -64,9 +61,9 @@
 
 
 
-<main role="main">  
-  <div id='hero'>
-    <div id='hero_text'>
+  <main role="main">  
+    <div class="jumbotron jumbotron-fluid" id="hero">
+    <div class="container" id="hero_text">
       <h1>Hi! We are <strong>Penn FLiTE</strong></h1>
       <h4>A community for <b>F</b>irst-generation, <b>L</b>ow-income (FGLI) students <b>i</b>n <b>T</b>echnology and <b>E</b>ngineering </h4>    
       <a class="btn btn-lg btn-primary" href="#" role="button">About Us</a>
@@ -75,7 +72,7 @@
 
   <div class='container mission'>
     <h3>Who We Are</h3>
-    <p> FLiTE is a student organization that provides catered support, opportunities and development for FGLI students at Penn passionate about technology and engineering to ensure success for a population with unique needs. </p>
+    <p> FLiTE is a student organization that provides catered support, opportunities and development for First-generation, Low-income (FGLI) students at Penn passionate about technology and engineering to ensure success for a population with unique needs. </p>
     <hr>
     <br>
     <h3>Our Mission</h3>
@@ -91,67 +88,63 @@
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
+    <!-- Note to change the icons from svg files to font awesome imports -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Mentorship</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img class='svg-icons' src="img/book-reader-solid.svg" height="80">
+        <p>First generation low income students are equally as likely to select engineering and computer science majors upon entering college as their non-FGLI counterparts.</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Development</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img class='svg-icons' src="img/door-open-solid.svg" height="80">
+        <p>First generation low income students however are more than twice likely to drop out of engineering and computer science, indicating a need for a support space.</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Service</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img class='svg-icons' src="img/calendar-check-regular.svg" height="80">
+        <p>Yet, those that stay stick with their original computer science/engineering majors even more than their non-FGLI peers, signaling a desire and persistence in the subject. </p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
 
     <!-- START THE FEATURETTES -->
+    <div class='container with-padding'>
+      <hr class="featurette-divider">
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">What Is FGLI? <div class="text-muted">And Why It Matters.</div></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Mentorship</h2>
+          <p class="lead">We aim to provide academic, professional, and general guidance for incoming students through our mentorship program that pairs upperclassmen with freshmen. </p>
+        </div>
+        <div class="col-md-5">
+          <img class='land-thumb' src="img/mentorship_img.jpg">
+        </div>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Why We Do What We Do. <div class="text-muted">And How We Do It.</div></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2 align">
+          <h2 class="featurette-heading">Resources</h2>
+          <p class="lead">We plan to partner with a variety organizations from technology companies to community non-profits to provide a wide-degree of academic and professional resources.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class='land-thumb' src="img/resources_img.jpg">
+        </div>
       </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Come Join Us. <span class="text-muted">Connect.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Collaboration</h2>
+          <p class="lead">We hope to develop our students through interdisciplinary collaboration to create leading engineers that will create innovative solutions to a variety of society's problems.</p>
+        </div>
+        <div class="col-md-5">
+          <img class='land-thumb' src="img/collaboration.jpg">
+        </div>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
+  </div>
 
     <!-- /END THE FEATURETTES -->
 

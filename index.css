@@ -3,8 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   color: #001f3f;
 }
 
@@ -15,17 +13,23 @@ rect {
 
 /* OBJECT STYLES */
 
+#hero h4{
+  color: #ffd10a;
+}
+
+#hero h1{
+  font-size: 60px;
+  color: #001e4f;
+}
+
 .navbar {
-  
+  color: #fcda5f;
 }
 
 #hero {
-  
-  padding: 10% 5% 8% 5%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("img/flight_image.png");
-  text-align: center;
-  height: 50%;
-
+  background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("img/flight_image.png");
+  padding-top: 10%;
+  padding-bottom: 10%;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +39,8 @@ rect {
 }
 
 #hero_text {
-  color: #fff;
+  text-align: center;
+  color: white;
 }
 
 .mission {
@@ -44,17 +49,18 @@ rect {
 }
 
 
+.svg-icons {
+  margin-bottom: 20px;
+}
 
+.land-thumb {
+  height: 300px;
+}
 
-
-
-
-
-
-
-
-
-
+.with-padding {
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -81,6 +87,16 @@ rect {
   height: 32rem;
 }
 
+.mission h3 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #001e4f;
+}
+
+.mission p {
+  font-size: 18px;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -103,7 +119,7 @@ rect {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -111,6 +127,8 @@ rect {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+  padding: 0;
+  color: #fcda5f;
 }
 
 
@@ -126,7 +144,7 @@ rect {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
