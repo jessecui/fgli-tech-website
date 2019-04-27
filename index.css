@@ -10,7 +10,6 @@ rect {
   fill: #173F5F;
 }
 
-
 /* OBJECT STYLES */
 
 #hero h4{
@@ -48,6 +47,10 @@ rect {
   text-align: center;
 }
 
+.headshot {
+  margin: 1em 0;
+  text-align: center;
+}
 
 .svg-icons {
   margin-bottom: 20px;
@@ -60,6 +63,16 @@ rect {
 .with-padding {
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.headshot img {
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.box {
+  margin-right: 1%;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -97,6 +110,9 @@ rect {
   font-size: 18px;
 }
 
+h3 {
+  margin-top: 20px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -112,6 +128,10 @@ rect {
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+.thumbnail {
+  min-width: 255px;
 }
 
 
