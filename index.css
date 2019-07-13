@@ -13,7 +13,7 @@ rect {
 /* OBJECT STYLES */
 
 #hero h4{
-  color: #ffd10a;
+  color: black;
 }
 
 #hero h1{
@@ -26,15 +26,8 @@ rect {
 }
 
 #hero {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("img/flight_image.png");
   padding-top: 10%;
   padding-bottom: 10%;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;  
-  background-attachment: fixed;
 }
 
 #hero_text {
