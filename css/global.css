@@ -1,0 +1,113 @@
+/*navbar*/
+.navbar {
+	font-family: Roboto !important;
+	font-size: 1.1rem;
+}
+
+.active .nav-link{
+	color: #0069B6 !important;
+}
+
+.navbar .btn {
+	font-size: 1.1rem;
+}
+
+/*buttons*/
+.btn-primary.btn-light-blue {
+  background-color: #2F80ED;
+  border-color: #2F80ED;
+}
+
+.btn-primary.btn-light-blue:hover {
+  background-color: #2A73D5;
+  border-color: #2A73D5;
+}
+
+.btn-success.btn-teal {
+  background-color: #00DAAB;
+  border-color: #00DAAB;
+}
+
+.btn-success.btn-teal:hover {
+  background-color: #00ba92;
+  border-color: #00ba92;
+}
+
+.btn-outline-dark.btn-thick {
+  border: 8px solid #555;
+}
+
+.btn-outline-dark.btn-thick:hover {
+  border: 8px solid #555;
+  background: #555;
+}
+
+/*Footer*/
+
+footer.container{
+  padding: 0;
+  margin: 0;
+}
+
+footer .btn{
+  vertical-align: top;
+}
+
+.social-links {
+  text-align: center;
+  padding: 16px 0;
+  background-color: #eee;
+  width: 100vw;
+}
+
+.social-links i:first-child {
+  color: #2F80ED;
+  margin-right: 16px;
+}
+
+.social-links i:nth-child(2) {
+  color: red;
+  margin-right: 16px;
+}
+
+footer .bottom-row {
+  width: 100vw;
+  background-color: black;
+  padding: 16px 8px;
+}
+
+footer .bottom-row p {
+  color: white;
+  padding: 16px 8px;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+#attribution {
+  font-size: .5rem;
+  font-weight: 300;
+}
+
+#cloud {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin-left: -10vw;
+  margin-bottom: -10vw;
+  width: 35vw;
+}
+
+#rocket {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 10vw;
+  margin-left: 18vw;
+  margin-bottom: 12vw;
+  z-index: -1;
+}
+
+.jumbotron {
+  z-index: -2;
+}

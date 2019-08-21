@@ -1,0 +1,115 @@
+body {
+    font-family: Lato !important;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+h3 {
+  margin-top: 36px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Roboto !important;
+}
+
+h4 {
+  font-weight: bold;
+  font-family: Roboto !important;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #333;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/*buttons*/
+.btn-primary.btn-light-blue {
+  background-color: #2F80ED;
+  border-color: #2F80ED;
+}
+
+.btn-primary.btn-light-blue:hover {
+  background-color: #2A73D5;
+  border-color: #2A73D5;
+}
+
+.btn-success.btn-teal {
+  background-color: #00DAAB;
+  border-color: #00DAAB;
+}
+
+.btn-success.btn-teal:hover {
+  background-color: #00ba92;
+  border-color: #00ba92;
+}
+
+.btn-pill {
+  border-radius: 24px !important;
+  margin-top: 16px;
+}
+
+.card-text {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 36px;
+  height: 100%;
+}
+
+.card-row {
+  margin: 24px auto;
+}
+
+.card-img {
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.jumbotron {
+  background: linear-gradient(270deg, rgba(144, 69, 176, 0.93) 0%, #4B79F0 82.81%);
+  text-align: right;
+  color: white;
+  padding: 8rem 2rem;
+  position: relative;
+}
+
+.welcome-text {
+  text-align: center;
+  padding-bottom: 36px;
+}
+
+.blue-underscore {
+  border: 6px solid #36C2F3;
+  width: 6rem;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.welcome-text .btn {
+  display: block;
+  margin: 16px auto;
+}
+
+.button-h-group {
+  margin-top: 16px;
+}
+
+.button-h-group .btn {
+  margin-left: 24px;
+}
