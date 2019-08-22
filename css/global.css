@@ -16,6 +16,9 @@
 .btn-primary.btn-light-blue {
   background-color: #2F80ED;
   border-color: #2F80ED;
+  font-family: Roboto;
+  font-weight: bold;
+  border-radius: 12px;
 }
 
 .btn-primary.btn-light-blue:hover {
@@ -26,6 +29,9 @@
 .btn-success.btn-teal {
   background-color: #00DAAB;
   border-color: #00DAAB;
+  font-family: Roboto;
+  font-weight: bold;
+  border-radius: 12px;
 }
 
 .btn-success.btn-teal:hover {
@@ -70,9 +76,13 @@ footer .btn{
   margin-right: 16px;
 }
 
+.social-links i:hover {
+  color: #333;
+}
+
 footer .bottom-row {
   width: 100vw;
-  background-color: black;
+  background-color: #111;
   padding: 16px 8px;
 }
 
@@ -105,9 +115,10 @@ footer .bottom-row p {
   width: 10vw;
   margin-left: 18vw;
   margin-bottom: 12vw;
-  z-index: -1;
+  z-index: 1;
 }
 
-.jumbotron {
-  z-index: -2;
+.banner-text {
+  z-index: 2;
+  position: relative;
 }
