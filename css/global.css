@@ -28,8 +28,7 @@ h2 {
 }
 
 /*jumbotron*/
-.jumbotron {
-  background: linear-gradient(270deg, rgba(144, 69, 176, 0.93) 0%, #4B79F0 82.81%);
+.jumbotron {  
   text-align: right;
   color: white;
   padding: 8rem 2rem;
