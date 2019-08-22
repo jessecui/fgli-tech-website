@@ -12,6 +12,35 @@
 	font-size: 1.1rem;
 }
 
+/*text*/
+body {
+    font-family: Lato !important;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+/*jumbotron*/
+.jumbotron {
+  background: linear-gradient(270deg, rgba(144, 69, 176, 0.93) 0%, #4B79F0 82.81%);
+  text-align: right;
+  color: white;
+  padding: 8rem 2rem;
+  position: relative;
+}
+
+.welcome-text {
+  text-align: center;
+  padding-bottom: 36px;
+}
+
 /*buttons*/
 .btn-primary.btn-light-blue {
   background-color: #2F80ED;
@@ -104,7 +133,7 @@ footer .bottom-row p {
   bottom: 0px;
   left: 0px;
   margin-left: -10vw;
-  margin-bottom: -10vw;
+  margin-bottom: -7vw;
   width: 35vw;
 }
 
@@ -121,4 +150,13 @@ footer .bottom-row p {
 .banner-text {
   z-index: 2;
   position: relative;
+}
+
+.jumbotron {
+  min-height: 50vh;
+}
+
+.jumbotron .single-header {
+  font-size: 5rem;
+  padding-top: 3vw;
 }
