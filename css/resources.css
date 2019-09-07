@@ -1,0 +1,22 @@
+.jumbotron {
+	background: linear-gradient(270deg, #42F0C7 0%, #36C2F3 82.81%);
+}
+
+button {
+	background: #2F80ED;
+border-radius: 10px;
+}
+
+h4 {
+	margin-top: 24px !important;
+}
+
+.content-section {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+hr {
+	margin-top: 36px;
+
+}
