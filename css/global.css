@@ -83,6 +83,10 @@ p {
 }
 
 /*buttons*/
+nav button {
+  width: 106px;
+}
+
 .btn-primary.btn-light-blue {
   background-color: #2F80ED;
   border-color: #2F80ED;
@@ -174,7 +178,7 @@ footer .bottom-row p {
   bottom: 0px;
   left: 0px;
   margin-left: -10vw;
-  margin-bottom: -7vw;
+  margin-bottom: -6.6vw;
   width: 35vw;
 }
 
@@ -188,9 +192,33 @@ footer .bottom-row p {
   z-index: 1;
 }
 
+@media only screen and (min-width: 2200px) {
+  #cloud {
+    width: 750px;
+    margin-left: -180px;
+    margin-bottom: -145px;
+  }
+
+  #rocket {
+    width: 200px;
+    margin-left: 400px;
+    margin-bottom: 270px;
+  }
+}
+
 .banner-text {
   z-index: 2;
   position: relative;
+}
+
+.jumbotron {
+  animation: fade .6s ease-in forwards;
+}
+
+@keyframes fade{
+  0%{filter: brightness(0%);}
+  40%{filter: brightness(0%);}
+  100%{filter: brightness(100%);}
 }
 
 .jumbotron {
@@ -216,3 +244,14 @@ footer .bottom-row p {
 .center-text {
   text-align: center;
 }
+
+.banner-text {
+  animation: fade-in-up .6s linear forwards;
+}
+
+@keyframes fade-in-up{
+  0%{opacity: 0; transform: translateY(30px);}
+  50%{opacity: 0; transform: translateY(30px);}
+  100%{opacity: 1; transform: translateY(0px);}
+}
+

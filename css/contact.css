@@ -1,0 +1,15 @@
+.jumbotron {
+	background: linear-gradient(270deg, #FFD700 0%, #36C2F3 82.81%);
+}
+
+#contact-section {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 36px;
+}
+
+#contact-section h6 {
+	margin-bottom: 24px;
+	font-size: 24px;
+}
