@@ -140,17 +140,17 @@ footer .btn{
   width: 100vw;
 }
 
-.social-links i:first-child {
+.social-links a:first-child i {
   color: #2F80ED;
   margin-right: 16px;
 }
 
-.social-links i:nth-child(2) {
+.social-links a:nth-child(2) i {
   color: red;
   margin-right: 16px;
 }
 
-.social-links i:hover {
+.social-links a:hover i {
   color: #333;
 }
 
@@ -253,5 +253,10 @@ footer .bottom-row p {
   0%{opacity: 0; transform: translateY(30px);}
   50%{opacity: 0; transform: translateY(30px);}
   100%{opacity: 1; transform: translateY(0px);}
+}
+
+button a {
+  color: inherit !important; 
+  text-decoration: none !important;
 }
 
