@@ -42,6 +42,9 @@ p {
 }
 
 .card-img {
+  width: 65%;
+  display:block;
+  margin:auto;
 }
 
 .float-left {
